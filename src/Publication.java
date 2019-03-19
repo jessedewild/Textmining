@@ -1,6 +1,6 @@
-public class Publicatie {
+public class Publication {
     private String PMID;
-    private String titel;
+    private String title;
     private String datum;
 
     public String getPMID() {
@@ -11,12 +11,12 @@ public class Publicatie {
         this.PMID = PMID;
     }
 
-    public String getTitel() {
-        return titel;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitel(String titel) {
-        this.titel = titel;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getDatum() {
@@ -29,6 +29,6 @@ public class Publicatie {
 
     @Override
     public String toString() {
-        return String.format("%-12s" + "%-12s" + getTitel() + "\n", getPMID(), getDatum());
+        return String.format("%-12s" + "%-12s" + getTitle() + "\n", getPMID(), getDatum());
     }
 }

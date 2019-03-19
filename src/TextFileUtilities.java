@@ -7,67 +7,67 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TextFileUtities {
+public class TextFileUtilities {
 
     /**
      * If the folder is a directory/folder, add the files to the ArrayList.
      * Else throw an exception for an invalid folder location.
      *
-     * @return the ArrayList of files from the folder.
+     * @return the ArrayList of files from the folder
      */
     public static ArrayList<File> getFilesInFolder(String folderLocation) throws TextFileUtitiesException {
         ArrayList<File> fileLocations = new ArrayList<>();
         File folder = new File(folderLocation);
 
+        // Loop through the folder, and add every file to the ArrayList of files
         if (folder.isDirectory()) {
             for (File file : folder.listFiles()) {
                 fileLocations.add(file);
             }
         } else {
-            new TextFileUtitiesException();
+            throw new TextFileUtitiesException("The given folder location is not a directory!");
         }
 
         return fileLocations;
     }
 
     /**
-     * Make a Publicatie from the file given.
+     * Make a Publication from the file given.
      *
-     * @param file : Make a Publicatie from the given file.
-     * @return : The Publicatie that has been created via the file.
+     * @param file : Make a Publication from the given file
+     * @return : The Publication that has been created via the file
      */
-    public static Publicatie parsePublicatieInformatie(File file) {
-        Publicatie publicatie = new Publicatie();
+    public static Publication parsePublicationInformation(File file) {
+        Publication publication = new Publication();
         try {
             Scanner fileScanner = new Scanner(file);
             while (fileScanner.hasNextLine()) {
                 String line = fileScanner.nextLine();
                 if (line.startsWith("PMID-")) {
-                    publicatie.setPMID(line.split("- ")[1]);
+                    publication.setPMID(line.split("- ")[1]);
                 } else if (line.startsWith("TI  -")) {
-                    publicatie.setTitel(line.split("- ")[1]);
+                    publication.setTitle(line.split("- ")[1]);
                 } else if (line.startsWith("DP  -")) {
-                    publicatie.setDatum(line.split("- ")[1]);
+                    publication.setDatum(line.split("- ")[1]);
                 }
             }
         } catch (FileNotFoundException fnfe) {
             System.out.println("This is an invalid file!");
         }
 
-        return publicatie;
+        return publication;
     }
 
     /**
-     * Write the .txt file from the ArrayList of publicaties
+     * Write the .txt file from the ArrayList of publications.
      *
-     * @param publicaties : The ArrayList given in the main() run.
+     * @param publications : The ArrayList given in the main() run
      * @param saveLocation : The given location and name for the .txt file
-     * @throws IOException : See Textmining.java (line 18)
      */
-    public static void schrijfPublicatiesNaarFile(ArrayList<Publicatie> publicaties, String saveLocation) throws IOException {
+    public static void writePublicationsToFile(ArrayList<Publication> publications, String saveLocation) throws IOException {
         FileWriter writer = new FileWriter(saveLocation);
-        for (Publicatie publicatie : publicaties) {
-            writer.write(publicatie.toString());
+        for (Publication publication : publications) {
+            writer.write(publication.toString());
         }
         writer.close();
     }

@@ -5,21 +5,19 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Textmining {
-    private ArrayList<Publicatie> publicaties = new ArrayList<>(); // ArrayList of Publicaties
+    private ArrayList<Publication> publications = new ArrayList<>(); // ArrayList of publications
 
     public void main() {
         try {
-            // Add every Publicatie to an ArrayList
-            for (File file : TextFileUtities.getFilesInFolder("input_files")) {
-                publicaties.add(TextFileUtities.parsePublicatieInformatie(file));
+            // Add every Publication to an ArrayList
+            for (File file : TextFileUtilities.getFilesInFolder("input_files")) {
+                publications.add(TextFileUtilities.parsePublicationInformation(file));
             }
 
-            // Write the ArrayList of 'publicaties' to a .txt file that has been given
-            TextFileUtities.schrijfPublicatiesNaarFile(publicaties, "output_from_files");
-        } catch (TextFileUtitiesException tfue) {
-            new TextFileUtitiesException("The given folder location is not a directory!");
-        } catch (IOException ioe) {
-            ioe.printStackTrace();
+            // Write the ArrayList of publications to a .txt file that has been given in the argInput
+            TextFileUtilities.writePublicationsToFile(publications, "output_from_files");
+        } catch (TextFileUtitiesException | IOException e) {
+            e.printStackTrace();
         }
     }
 
