@@ -18,21 +18,18 @@ public class Textmining {
                 publications.add(TextFileUtilities.parsePublicationInformation(file));
             }
 
-            // Write the ArrayList of publications to a .txt file that has been given in the argInput
-            TextFileUtilities.writePublicationsToFile(publications, OUTPUT_LOCATION);
-
-            String menuOption;
             while (true) {
                 Scanner sc = new Scanner(System.in);
-
                 System.out.println("Do you want to write the publications to the file? ");
-                menuOption = sc.next().toLowerCase();
-                switch (menuOption) {
-                    case "yes":
-                        TextFileUtilities.writePublicationsToFile(publications, OUTPUT_LOCATION);
-                    case "no":
-                        File file = new File(OUTPUT_LOCATION);
-                        file.delete();
+                String menuOption = sc.nextLine();
+                if (menuOption.equalsIgnoreCase("yes")) {
+                    // Write the ArrayList of publications to a .txt file that has been given in the argInput
+                    TextFileUtilities.writePublicationsToFile(publications, OUTPUT_LOCATION);
+                    System.exit(0);
+                } else {
+                    File file = new File(OUTPUT_LOCATION);
+                    file.delete();
+                    System.exit(0);
                 }
             }
         } catch (TextFileUtitiesException | IOException e) {
