@@ -15,20 +15,20 @@ public class TextFileUtilities {
      *
      * @return the ArrayList of files from the folder
      */
-    public static ArrayList<File> getFilesInFolder(String folderLocation) throws TextFileUtitiesException {
-        ArrayList<File> fileLocations = new ArrayList<>();
+    public static ArrayList<File> getFilesFromFolder(String folderLocation) throws TextFileUtitiesException {
+        ArrayList<File> files = new ArrayList<>();
         File folder = new File(folderLocation);
 
         // Loop through the folder, and add every file to the ArrayList of files
         if (folder.isDirectory()) {
             for (File file : folder.listFiles()) {
-                fileLocations.add(file);
+                files.add(file);
             }
         } else {
             throw new TextFileUtitiesException("The given folder location is not a directory!");
         }
 
-        return fileLocations;
+        return files;
     }
 
     /**
@@ -62,10 +62,10 @@ public class TextFileUtilities {
      * Write the .txt file from the ArrayList of publications.
      *
      * @param publications : The ArrayList given in the main() run
-     * @param saveLocation : The given location and name for the .txt file
+     * @param outputLocation : The given location and name for the .txt file
      */
-    public static void writePublicationsToFile(ArrayList<Publication> publications, String saveLocation) throws IOException {
-        FileWriter writer = new FileWriter(saveLocation);
+    public static void writePublicationsToFile(ArrayList<Publication> publications, String outputLocation) throws IOException {
+        FileWriter writer = new FileWriter(outputLocation);
         for (Publication publication : publications) {
             writer.write(publication.toString());
         }
