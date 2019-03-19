@@ -1,0 +1,85 @@
+PMID- 30743161
+OWN - NLM
+STAT- Publisher
+LR  - 20190211
+IS  - 1476-928X (Electronic)
+IS  - 1476-9271 (Linking)
+VI  - 79
+DP  - 2019 Jan 24
+TI  - Identification of glucosyl-3-phosphoglycerate phosphatase as a novel drug target 
+      against resistant strain of Mycobacterium tuberculosis (XDR1219) by using
+      comparative metabolic pathway approach.
+PG  - 91-102
+LID - S1476-9271(18)30770-9 [pii]
+LID - 10.1016/j.compbiolchem.2019.01.011 [doi]
+AB  - Tuberculosis (TB) is a major global health challenge. It has been afflicting
+      human for thousands of years and is still severely affecting a huge population.
+      The etiological agent of the disease is Mycobacterium tuberculosis (MTB) that
+      survives in the human host in latent, dormant, and non-replicative state by
+      evading the immune system. It is one of the leading causes of infection related
+      death worldwide. The situation is exacerbated by the massive increase in the
+      resistant strains such as multi-drug resistant TB (MDR-TB) and extensive
+      drug-resistant TB (XDR-TB). The resistance is as severe that it resulted in
+      failure of the current chemotherapy regimens (i.e. anti-tubercular drugs). It is 
+      therefore imperative to discover the new anti-tuberculosis drug targets and their
+      potential inhibitors. Current study has made the use of in silico approaches to
+      perform the comparative metabolic pathway analysis of the MTBXDR1219 with the
+      host i.e. H. sapiens. We identified several metabolic pathways which are unique
+      to pathogen only. By performing subtractive genomic analysis 05 proteins as
+      potential drug target are retrieved. This study suggested that the identified
+      proteins are essential for the bacterial survival and non-homolog to the host
+      proteins. Furthermore, we selected glucosyl-3-phosoglycerate phosphatase (GpgP,
+      EC 5.4.2.1) out of the 05 proteins for molecular docking analysis and virtual
+      screening. The protein is involved in the biosynthesis of methylglucose
+      lipopolysaccharides (MGLPs) which regulate the biosynthesis of mycolic acid.
+      Mycolic acid is the building block of the unique cell wall of the MTB which is
+      responsible for the resistance and pathogenicity. A relatively larger library
+      consisting of 10,431 compounds was screened using AutoDock Vina to predict the
+      binding modes and to rank the potential inhibitors. No potent inhibitor against
+      MTB GpgP has been reported yet, therefore ranking of compounds is performed by
+      making a comparison with the substrate i.e. glucosyl-3-phosphoglycerate. The
+      obtained results provide the understanding of underlying mechanism of
+      interactions of ligands with protein. Follow up study will include the study of
+      the Protein-Protein Interactions (PPIs), and to propose the potential inhibitors 
+      against them.
+CI  - Copyright (c) 2019 Elsevier Ltd. All rights reserved.
+FAU - Uddin, Reaz
+AU  - Uddin R
+AD  - Dr. Panjwani Center for Molecular Medicine and Drug Research, International
+      Center for Chemical and Biological Sciences, University of Karachi, Pakistan.
+      Electronic address: mriazuddin@iccs.edu.
+FAU - Zahra, Noor-Ul-Ain
+AU  - Zahra NU
+AD  - Dr. Panjwani Center for Molecular Medicine and Drug Research, International
+      Center for Chemical and Biological Sciences, University of Karachi, Pakistan.
+FAU - Azam, Syed Sikander
+AU  - Azam SS
+AD  - Computational Biology Lab, National Center for Bioinformatics, Quaid-i-Azam
+      University, Islamabad, Pakistan.
+LA  - eng
+PT  - Journal Article
+DEP - 20190124
+PL  - England
+TA  - Comput Biol Chem
+JT  - Computational biology and chemistry
+JID - 101157394
+OTO - NOTNLM
+OT  - Drug targets
+OT  - Essential gene
+OT  - Metabolic pathway analysis
+OT  - Resistant mycobacterium tuberculosis
+OT  - Subtractive genomics
+OT  - Virtual screening
+EDAT- 2019/02/12 06:00
+MHDA- 2019/02/12 06:00
+CRDT- 2019/02/12 06:00
+PHST- 2018/10/21 00:00 [received]
+PHST- 2019/01/13 00:00 [revised]
+PHST- 2019/01/23 00:00 [accepted]
+PHST- 2019/02/12 06:00 [entrez]
+PHST- 2019/02/12 06:00 [pubmed]
+PHST- 2019/02/12 06:00 [medline]
+AID - S1476-9271(18)30770-9 [pii]
+AID - 10.1016/j.compbiolchem.2019.01.011 [doi]
+PST - aheadofprint
+SO  - Comput Biol Chem. 2019 Jan 24;79:91-102. doi: 10.1016/j.compbiolchem.2019.01.011.

@@ -1,0 +1,76 @@
+PMID- 30743160
+OWN - NLM
+STAT- Publisher
+LR  - 20190211
+IS  - 1476-928X (Electronic)
+IS  - 1476-9271 (Linking)
+VI  - 79
+DP  - 2019 Jan 11
+TI  - Integrating pharmacophore mapping, virtual screening, density functional theory, 
+      molecular simulation towards the discovery of novel apolipoprotein (apoE
+      epsilon4) inhibitors.
+PG  - 83-90
+LID - S1476-9271(18)30838-7 [pii]
+LID - 10.1016/j.compbiolchem.2018.12.013 [doi]
+AB  - AIM: An integrated protocol of virtual screening involving molecular docking,
+      pharmacophore probing, and simulations was established to identify small novel
+      molecules targeting crucial residues involved in the variant apoE epsilon4 to
+      mimic its behavior as apoE2 thereby eliminating the amyloid plaque accumulation
+      and facilitating its clearance. MATERIALS AND METHODS: An excellent ligand-based 
+      and structure-based approach was made to identify common pharmacophoric features 
+      involving structure-based docking with respect to apoE epsilon4 leading to the
+      development of apoE epsilon4 inhibitors possessing new scaffolds. An effort was
+      made to design multiple-substituted triazine derivatives series bearing a novel
+      scaffold. A structure-based pharmacophore mapping was developed to explore the
+      binding sites of apoE epsilon4 which was taken into consideration. Subsequently, 
+      virtual screening, ADMET, DFT searches were at work to narrow down the proposed
+      hits to be forwarded as a potential drug likes candidates. Further, the binding
+      patterns of the best-proposed hits were studied and were forwarded for molecular 
+      dynamic simulations of 10 ns for its structural optimization. RESULTS:
+      Selectivity profile for the most promising candidates was studied, revealing
+      significantly C13 and C15 to be the most potent compounds. The proposed hits can 
+      be forwarded for further study against apoE epsilon4 involved in neurological
+      disorder Alzheimer's.
+CI  - Copyright (c) 2019 Elsevier Ltd. All rights reserved.
+FAU - Johari, Surabhi
+AU  - Johari S
+AD  - Centre for Biotechnology and Bioinformatics Studies, Dibrugarh University,
+      Dibrugarh, 786004, Assam, India. Electronic address: surabhibiotech1@dibru.ac.in.
+FAU - Sharma, Ashwani
+AU  - Sharma A
+AD  - Laboratory of Molecular Electrochemistry UMR CNRS - P7 7591, 75205, Paris Cedex
+      13, France.
+FAU - Sinha, Subrata
+AU  - Sinha S
+AD  - Centre for Biotechnology and Bioinformatics Studies, Dibrugarh University,
+      Dibrugarh, 786004, Assam, India.
+FAU - Das, Aparoop
+AU  - Das A
+AD  - Department of Pharmaceutical Sciences, Dibrugarh University, Dibrugarh, 786004,
+      Assam, India.
+LA  - eng
+PT  - Journal Article
+DEP - 20190111
+PL  - England
+TA  - Comput Biol Chem
+JT  - Computational biology and chemistry
+JID - 101157394
+OTO - NOTNLM
+OT  - Alzheimer
+OT  - Apolipoprotein
+OT  - Molecular dynamics
+OT  - Neurological
+OT  - Triazine
+OT  - Virtual screening
+EDAT- 2019/02/12 06:00
+MHDA- 2019/02/12 06:00
+CRDT- 2019/02/12 06:00
+PHST- 2018/11/12 00:00 [received]
+PHST- 2018/12/25 00:00 [accepted]
+PHST- 2019/02/12 06:00 [entrez]
+PHST- 2019/02/12 06:00 [pubmed]
+PHST- 2019/02/12 06:00 [medline]
+AID - S1476-9271(18)30838-7 [pii]
+AID - 10.1016/j.compbiolchem.2018.12.013 [doi]
+PST - aheadofprint
+SO  - Comput Biol Chem. 2019 Jan 11;79:83-90. doi: 10.1016/j.compbiolchem.2018.12.013.

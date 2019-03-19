@@ -1,0 +1,82 @@
+PMID- 30743158
+OWN - NLM
+STAT- Publisher
+LR  - 20190211
+IS  - 1873-4243 (Electronic)
+IS  - 1093-3263 (Linking)
+VI  - 88
+DP  - 2019 Feb 1
+TI  - Computational approach to understand molecular mechanism involved in BPH
+      resistance in Bt- rice plant.
+PG  - 209-220
+LID - S1093-3263(18)30806-4 [pii]
+LID - 10.1016/j.jmgm.2019.01.018 [doi]
+AB  - In silico approach was utilised to identify differentially expressed key hub
+      genes during BPH infestation on Bt rice plant, under laboratory conditions.
+      Re-analysis of GSE74745 data with in-house R scripts and STRING database reveals 
+      that only 5 key hub genes, namely Os05g0176100, Os06g0683200, Os07g0208500,
+      Os07g0252400 and Os07g0424400, belonging to cellulose synthase family, are
+      differentially expressed and have confidence score >/=0.9 among themselves.
+      Conserve domain analysis of all proteins encoded via these 5 key hub genes
+      reveals that they have a common cellulose synthase domain, in which
+      "Plant-Conserved Region" (PCR) is highly conserved. After binding with other
+      domains of cellulose synthase proteins or other accessory proteins, like sucrose 
+      synthase, PCR serves as a metabolic channel to deliver UDP-Glucose, which is the 
+      main substrate for cellulose synthesis, into the active site of cellulose
+      synthase and initiate cellulose synthesis. Simulation study of recently solved
+      topological model of PCR [PDB ID: 5JNP] and molecular docking studies of PCR with
+      UDP-glucose reveals that, during BPH infestation, in nearby phloem tissue where
+      BPH suck sap, there is an increase interaction of UDP-glucose with PCR and other 
+      accessory proteins which in turn increases both the stability of PCR and the
+      production of cellulose, finally causing callose deposition at that site and
+      hence causing longer nymphal developmental period and lower fertility of BPH
+      infested on Bt rice. In near future, these differentially identified 5 hub genes 
+      could be possible targets for controlling BPH infestation in rice plant under
+      field conditions and increasing rice yield globally.
+CI  - Copyright (c) 2019 Elsevier Inc. All rights reserved.
+FAU - Gupta, Manoj Kumar
+AU  - Gupta MK
+AD  - Department of Biotechnology & Bioinformatics, Yogi Vemana University, Kadapa,
+      516003, Andhra Pradesh, India.
+FAU - Vadde, Ramakrishna
+AU  - Vadde R
+AD  - Department of Biotechnology & Bioinformatics, Yogi Vemana University, Kadapa,
+      516003, Andhra Pradesh, India.
+FAU - Gouda, Gayatri
+AU  - Gouda G
+AD  - ICAR-National Rice Research Institute, Cuttack, Odisha, 753 006, India.
+FAU - Donde, Ravindra
+AU  - Donde R
+AD  - ICAR-National Rice Research Institute, Cuttack, Odisha, 753 006, India.
+FAU - Kumar, Jitendra
+AU  - Kumar J
+AD  - ICAR-National Rice Research Institute, Cuttack, Odisha, 753 006, India.
+FAU - Behera, Lambodar
+AU  - Behera L
+AD  - ICAR-National Rice Research Institute, Cuttack, Odisha, 753 006, India.
+      Electronic address: lambodarjamujhadi@gmail.com.
+LA  - eng
+PT  - Journal Article
+DEP - 20190201
+PL  - United States
+TA  - J Mol Graph Model
+JT  - Journal of molecular graphics & modelling
+JID - 9716237
+OTO - NOTNLM
+OT  - BPH infestation
+OT  - Bt-rice
+OT  - Differentially expressed gene
+OT  - Simulation
+EDAT- 2019/02/12 06:00
+MHDA- 2019/02/12 06:00
+CRDT- 2019/02/12 06:00
+PHST- 2018/10/26 00:00 [received]
+PHST- 2019/01/05 00:00 [revised]
+PHST- 2019/01/30 00:00 [accepted]
+PHST- 2019/02/12 06:00 [entrez]
+PHST- 2019/02/12 06:00 [pubmed]
+PHST- 2019/02/12 06:00 [medline]
+AID - S1093-3263(18)30806-4 [pii]
+AID - 10.1016/j.jmgm.2019.01.018 [doi]
+PST - aheadofprint
+SO  - J Mol Graph Model. 2019 Feb 1;88:209-220. doi: 10.1016/j.jmgm.2019.01.018.

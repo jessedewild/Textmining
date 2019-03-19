@@ -1,0 +1,82 @@
+PMID- 30743190
+OWN - NLM
+STAT- Publisher
+LR  - 20190211
+IS  - 1872-8464 (Electronic)
+IS  - 0165-5876 (Linking)
+VI  - 120
+DP  - 2019 Feb 6
+TI  - Does influenza vaccination or RSV prophylaxis impact resource utilization for
+      children after the diagnosis of airway disorders?
+PG  - 20-24
+LID - S0165-5876(19)30078-3 [pii]
+LID - 10.1016/j.ijporl.2019.02.013 [doi]
+AB  - OBJECTIVE: Quantify the rates influenza vaccination and RSV prophylaxis for
+      children with airway stenosis and/or other disorders and assess impact on
+      resource utilization. METHODS: This was a retrospective study with data extracted
+      from Duke Enterprise Data Unified Content Explorer (DEDUCE) between January 1,
+      2006 and December 1, 2017. Children aged 18 years and younger with at least one
+      diagnosis code for airway stenosis and/or disorders were included. The index date
+      was defined as the first date of airway stenosis/disorders diagnosis. Each
+      patient was followed for up to one year after the index date. Influenza
+      vaccination or RSV prophylaxis documented within one year of index date were
+      included. We defined emergency department (ED) visits and/or hospital admissions 
+      related to respiratory diagnoses as the primary outcome of increased resource
+      utilization. RESULTS: A total of 2718 patients were included. In our institution,
+      our results have indicated that there are fairly low vaccination documentation
+      rates of influenza vaccination, RSV prophylaxis, or both provided to children
+      with airway stenosis/disorders, 14.1% (389/2718), 1.1% (30/2718), and 0.6%
+      (17/2718), respectively, within the first year after diagnosis. Around 5%
+      (139/2718) and 10% (269/2718) experienced ED visits or hospitalizations related
+      to respiratory issues within the first year after diagnosis, respectively. Among 
+      139 and 269 patients with ED visits or hospitalizations, 34 (25%) and 54 (20%)
+      had multiple visits, respectively. Very few patients had documented influenza
+      vaccination (11/139, 0.4%) or RSV prophylaxis (5/269, 0.18%) before ED visits or 
+      hospitalization. CONCLUSIONS: There is little available evidence at this time for
+      strategies to prevent adverse events or complications in children with airway
+      stenosis/disorders. In our institution, our results have indicated that there are
+      fairly low documented rates of influenza vaccination, RSV prophylaxis, or both
+      provided to children with airway stenosis/disorders in the first year after
+      diagnosis. This is an area of significant clinical interest for potentially
+      limiting adverse events and optimizing resource utilization for children with
+      airway stenosis/disorders.
+CI  - Copyright (c) 2019 Elsevier B.V. All rights reserved.
+FAU - Cheng, Jeffrey
+AU  - Cheng J
+AD  - Pediatric Otolaryngology, Department of Surgery, Division of Head and Neck
+      Surgery and Communication Sciences, Duke University Medical Center, Durham, NC,
+      USA. Electronic address: jeffrey.cheng@duke.edu.
+FAU - Zhao, Congwen
+AU  - Zhao C
+AD  - Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.
+FAU - Lee, Hui-Jie
+AU  - Lee HJ
+AD  - Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.
+LA  - eng
+PT  - Journal Article
+DEP - 20190206
+PL  - Ireland
+TA  - Int J Pediatr Otorhinolaryngol
+JT  - International journal of pediatric otorhinolaryngology
+JID - 8003603
+OTO - NOTNLM
+OT  - Airway disorders
+OT  - Influenza
+OT  - Palivizumab
+OT  - Pediatric
+OT  - RSV
+OT  - Subglottic stenosis
+EDAT- 2019/02/12 06:00
+MHDA- 2019/02/12 06:00
+CRDT- 2019/02/12 06:00
+PHST- 2018/09/07 00:00 [received]
+PHST- 2019/01/10 00:00 [revised]
+PHST- 2019/02/02 00:00 [accepted]
+PHST- 2019/02/12 06:00 [entrez]
+PHST- 2019/02/12 06:00 [pubmed]
+PHST- 2019/02/12 06:00 [medline]
+AID - S0165-5876(19)30078-3 [pii]
+AID - 10.1016/j.ijporl.2019.02.013 [doi]
+PST - aheadofprint
+SO  - Int J Pediatr Otorhinolaryngol. 2019 Feb 6;120:20-24. doi:
+      10.1016/j.ijporl.2019.02.013.
